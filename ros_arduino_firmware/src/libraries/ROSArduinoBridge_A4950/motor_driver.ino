@@ -72,7 +72,7 @@
     if (spd > 255)
       spd = 255;
     
-    if (i == LEFT) { 
+    if (i == RIGHT) { 
       if      (reverse == 0) { analogWrite(RIGHT_MOTOR_FORWARD, spd); analogWrite(RIGHT_MOTOR_BACKWARD, 0); }
       else if (reverse == 1) { analogWrite(RIGHT_MOTOR_BACKWARD, spd); analogWrite(RIGHT_MOTOR_FORWARD, 0); }
     }
